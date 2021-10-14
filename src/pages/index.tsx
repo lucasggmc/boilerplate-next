@@ -1,13 +1,5 @@
-//import Head from 'next/head'
+import Main from 'components/Main'
 
-type Props = {
-  title: string
-}
-
-export default function Home({ title = 'React avançado' }: Props) {
-  return (
-    <div>
-      <h1>{title}</h1>
-    </div>
-  )
+export default function Home() {
+  return <Main />
 }
